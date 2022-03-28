@@ -11,7 +11,6 @@
   inputs.src-owo-master.ref   = "refs/heads/master";
   inputs.src-owo-master.owner = "lmariscal";
   inputs.src-owo-master.repo  = "owo";
-  inputs.src-owo-master.dir   = "";
   inputs.src-owo-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
